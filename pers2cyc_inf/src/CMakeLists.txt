@@ -38,11 +38,3 @@ add_executable( pers2cyc_inf
 target_link_libraries( pers2cyc_inf 
     ${Boost_PROGRAM_OPTIONS_LIBRARY} 
     CGAL::CGAL )
-
-#add_executable( test_gudhi
-#    test_gudhi.cpp
-#    )
-
-#add_executable( test_maxflow
-#    test_boost_maxflow.cpp
-#    )

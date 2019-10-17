@@ -92,8 +92,8 @@ bool parseOptions(int argc, char** argv, Options* ops) {
                 options(desc).positional(positional_options).run(), vm);
 
             if (vm.count("help")) { 
-                cout << endl << "Compute persistent 2-cycles" << endl << endl
-                    << "USAGE: ./inf_pers2cyc [OPTIONS] [FILENAME]" << endl << endl
+                cout << endl << "Compute persistent 2-cycles for infinite intervals" << endl << endl
+                    << "USAGE: ./pers2cyc_inf [OPTIONS] [FILENAME]" << endl << endl
                     << shown_desc; 
                 exit(0); 
             }

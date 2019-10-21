@@ -1,4 +1,4 @@
-#project( LoopGeom )
+#project( pers2cyc_fin )
 
 cmake_minimum_required( VERSION 3.5 FATAL_ERROR )
 #cmake_policy( SET CMP0017 NEW )
@@ -18,11 +18,11 @@ include_directories(${GUDHI_INCLUDE_DIR})
 
 include_directories( "." ".." ) 
 
-add_executable( LoopGeom
+add_executable( pers2cyc_fin
 	twocyc.cpp
 	Legal.h
 	ParseCommand.h
 	Graph.h
 	) 
 
-target_link_libraries( LoopGeom ${Boost_LIBRARIES})
+target_link_libraries( pers2cyc_fin ${Boost_LIBRARIES})

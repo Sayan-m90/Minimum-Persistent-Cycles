@@ -33,7 +33,11 @@ Both softwares are developed and tested under MacOS. Since the C++ codes and CMa
 
 **pers2cyc_fin** has the following dependencies:
 
-* *to sayan: add somethig here*
+* [Boost](https://www.boost.org)
+
+* [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+
+* [GUDHI](https://gudhi.inria.fr)
 
 **pers2cyc_inf** has the following dependencies:
 
@@ -53,7 +57,15 @@ We provide a sample perseus file 'sphere_50_50_50.perseus' where only one interv
 
 ### pers2cyc_fin
 
-*to sayan: add somethig here*
+Usage:
+  -h                    Help information;
+  -l                    License information;
+  -n arg (=1)           Number of 2-cycles to output
+  -d arg (=0)           Which bar from largest
+  -i arg                The file contains points in persues stlye.
+  -v arg (=0)           (verbose) Display simplex values and program calculation
+  
+  
 
 ### pers2cyc_inf
 

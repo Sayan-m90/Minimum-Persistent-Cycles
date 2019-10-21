@@ -1,7 +1,7 @@
 # Minimum-Persistent-Cycles
 Computing Minimal Persistent Cycles: Polynomial and Hard Cases 
 
-"CubicCycle" software is developed by the Jyamiti research group headed by 
+"pers2cyc_fin" software is developed by the Jyamiti research group headed by 
 Prof. Tamal K. Dey at the Department of Computer Science and Engineering 
 of The Ohio State University.
 
@@ -11,7 +11,7 @@ The binaries are distributed for: MacOS;
 DESCRIPTION
 =================================
 
-Our software PersLoop: Given a point file in Persues formatgenerates the persistent 2-cycle for the barcodes.
+Our software pers2cyc_fin: Given a point file in Persues formatgenerates the persistent 2-cycle for the barcodes.
 It implements Algorithm 3 of the following paper:
 	* Paper: T. K. Dey, T. Hao, S. Mandal
 		Computing Minimal Persistent Cycles: Polynomial and Hard Cases(SODA 2020)
@@ -20,10 +20,10 @@ It implements Algorithm 3 of the following paper:
 USAGE
 =================================
 -------------------------------------------------------------------------------
-./LoopGeom -i <point_filename> [-options]
+./pers2cyc_fin -i <point_filename> [-options]
 -------------------------------------------------------------------------------
 
-LoopGeom Usage:
+pers2cyc_fin Usage:
   -h                    Help information;
   -l                    License information;
   -n arg (=1)           Number of 2-cycles to output
@@ -40,7 +40,7 @@ LoopGeom Usage:
 OUTPUT FILES:
 =================================
 
-"persloop" produces .off files containing 2-cycle for each bar in the barcode.
+"pers2cyc_fin" produces .off files containing 2-cycle for each bar in the barcode.
 
 To visualise, use Paraview or Meshlab or similar mesh viewing softwares.
 
@@ -48,13 +48,13 @@ To visualise, use Paraview or Meshlab or similar mesh viewing softwares.
 EXAMPLE
 =================================
 
-A sample input simpers file "botijo_002_pers",  and filtration file "botijo_002f.txt" is provided in the folder "persloop-Example"
+A sample input simpers file "botijo_002_pers",  and filtration file "botijo_002f.txt" is provided in the folder "pers2cyc_fin-Example"
 which, given 8919 points sampled from the surface of a botijo and barcode generated from its filtration using simpers, gives the corresponding loops in the figure.
 
 Run the following command:
 
 Complete command:
-	./loopGeom -i Pf20.binLE -n 5
+	./pers2cyc_fin -i Pf20.binLE -n 5
 
 
 Output a folder named "Pf20.binLEloops/" which stores 2-cycles of the top 5 intervals in off format.

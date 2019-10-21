@@ -57,20 +57,13 @@ We provide a sample perseus file 'sphere_50_50_50.perseus' where only one interv
 
 ### pers2cyc_fin
 
-Usage:
-  -h                    Help information;
-  -l                    License information;
-  -n arg (=1)           Number of 2-cycles to output
-  -d arg (=0)           Which bar from largest
-  -i arg                The file contains points in persues stlye.
-  -v arg (=0)           (verbose) Display simplex values and program calculation
-  
+To produce cycles for the top 10 longest (finite) intervals:
 Example:
 ```
-./pers2cyc_fin -i Pf20.binLE -n 5
+./pers2cyc_fin -i sphere_50_50_50.perseus -n 10
 ```
 
-Outputs a folder named "Pf20.binLEloops/" which stores 2-cycles of the top 5 intervals in off format.
+Outputs a folder named "sphere_50_50_50.perseusloops/" which stores 2-cycles of the top 10 intervals in .off format.
 
 To print help information:
 

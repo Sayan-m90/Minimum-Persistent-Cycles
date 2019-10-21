@@ -60,7 +60,7 @@ We provide a sample perseus file 'sphere_50_50_50.perseus' where only one interv
 To produce cycles for the top 10 longest (finite) intervals:
 Example:
 ```
-./pers2cyc_fin -i sphere_50_50_50.perseus -n 10
+./pers2cyc_fin -i ../../sphere_50_50_50.perseus -n 10
 ```
 
 Outputs a folder named "sphere_50_50_50.perseusloops/" which stores 2-cycles of the top 10 intervals in .off format.

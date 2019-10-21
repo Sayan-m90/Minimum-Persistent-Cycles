@@ -66,11 +66,17 @@ Usage:
   -v arg (=0)           (verbose) Display simplex values and program calculation
   
 Example:
+```
+./pers2cyc_fin -i Pf20.binLE -n 5
+```
 
-./loopGeom -i Pf20.binLE -n 5
+Outputs a folder named "Pf20.binLEloops/" which stores 2-cycles of the top 5 intervals in off format.
 
-Output a folder named "Pf20.binLEloops/" which stores 2-cycles of the top 5 intervals in off format.
+To print help information:
 
+```
+./pers2cyc_fin -h
+```
 
 
 ### pers2cyc_inf
@@ -106,5 +112,8 @@ There is a script '*vol2perseus.py*' written in python3 which can convert a raw 
 
 ## License
 
-*to sayan: add the license here*
+THIS SOFTWARE IS PROVIDED "AS-IS". THERE IS NO WARRANTY OF ANY KIND. NEITHER THE AUTHORS NOR THE OHIO STATE UNIVERSITY WILL BE LIABLE FOR ANY DAMAGES OF ANY KIND, EVEN IF ADVISED OF SUCH POSSIBILITY. 
+
+This software was developed (and is copyrighted by) the Jyamiti group at The Ohio State University. Please do not redistribute this software. This program is for academic research use only. This software uses the Boost library, Gudhi library, CGAL library and Eigen library which are covered under their own licenses.
+
 

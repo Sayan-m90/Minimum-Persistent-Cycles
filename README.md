@@ -65,7 +65,13 @@ Usage:
   -i arg                The file contains points in persues stlye.
   -v arg (=0)           (verbose) Display simplex values and program calculation
   
-  
+Example:
+
+./loopGeom -i Pf20.binLE -n 5
+
+Output a folder named "Pf20.binLEloops/" which stores 2-cycles of the top 5 intervals in off format.
+
+
 
 ### pers2cyc_inf
 

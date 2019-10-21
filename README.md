@@ -73,7 +73,7 @@ To print help information:
 
 ### pers2cyc_inf
 
-To produce cycles for the top 10 longest (=finite) intervals:
+To produce cycles for the top 10 longest (finite) intervals:
 
 ```
 ./pers2cyc_inf -i 10 ../../sphere_50_50_50.perseus

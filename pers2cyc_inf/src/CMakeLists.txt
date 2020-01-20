@@ -6,7 +6,7 @@ message( "Compiler: ${CMAKE_CXX_COMPILER}" )
 message( "Option: ${CMAKE_CXX_FLAGS}" )
 
 # preprocessor macros
-add_compile_definitions( DEBUG_OPT )
+#add_compile_definitions( DEBUG_OPT )
 
 include_directories( "." )
 
